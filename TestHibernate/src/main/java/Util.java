@@ -16,6 +16,8 @@ public class Util {
             prop.setProperty("hibernate.connection.username", "go");
             prop.setProperty("hibernate.connection.password", "go");
             prop.setProperty("dialect", "org.hibernate.dialect.MySQLDialect");
+            System.out.println("fdsfd");
+            System.out.println("fffff");
 
 
             concreteSessionFactory = new org.hibernate.cfg.Configuration()
